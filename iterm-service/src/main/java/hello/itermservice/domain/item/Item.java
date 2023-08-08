@@ -6,14 +6,14 @@ import lombok.Data;
 public class Item {
 
     private Long id;
-    private String itermNam;
+    private String itemName;
     private Integer price;
     private Integer quantity;
 
     public Item() {}
 
-    public Item(String itermNam, Integer price, Integer quantity) {
-        this.itermNam = itermNam;
+    public Item(String itermName, Integer price, Integer quantity) {
+        this.itemName = itermName;
         this.price = price;
         this.quantity = quantity;
     }
